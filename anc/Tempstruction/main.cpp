@@ -1,24 +1,24 @@
-#include <iostream> 
+#include <iostream>
 
-template<typename T> // primary template 
+template<typename T> // primary template
 
-struct is_void : std::false_type 
+struct is_void : std::false_type
 {
-}; 
+};
 
-template<> // explicit specialization for T - void 
-struct is_void<void> : std::true_type 
+template<> // explicit specialization for T - void
+struct is_void<void> : std::true_type
 {
-}; 
+};
 
-int main() 
+int main()
 {
     /**
-     * for any T other than void, 
-     * the class is derived from false_type 
-     * but when T is void, the class is derived 
+     * for any T other than void,
+     * the class is derived from false_type
+     * but when T is void, the class is derived
      * from true_type
      */
-    std::cout << is_void<char>::value << std::endl; 
-    std::cout << is_void<void>::value << std::endl; 
+    std::cout << is_void<char>::value << std::endl;
+    std::cout << is_void<void>::value << std::endl;
 }
