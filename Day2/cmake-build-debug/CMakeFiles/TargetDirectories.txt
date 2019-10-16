@@ -1,0 +1,3 @@
+/home/onibode/Clones/100daysofcplusplus/Day2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/onibode/Clones/100daysofcplusplus/Day2/cmake-build-debug/CMakeFiles/Day2.dir
+/home/onibode/Clones/100daysofcplusplus/Day2/cmake-build-debug/CMakeFiles/edit_cache.dir
