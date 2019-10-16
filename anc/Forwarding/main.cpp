@@ -17,6 +17,10 @@ std::string h()
     return s; 
 };
 
+struct A { A() {};  A(const A&) = delete; }; 
+void p(const A&) { std::cout << "lval, "; }
+void p(A&&) { std::cout << "rval, "; }
+
 int main()
 {
     std::string test("123");
