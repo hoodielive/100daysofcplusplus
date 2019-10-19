@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wujud/Clones/cplusplus/Day4/Officer.cpp
+iostream
+-
+cstring
+-
+
+/home/wujud/Clones/cplusplus/Day4/main.cpp
+iostream
+-
+Officer.cpp
+/home/wujud/Clones/cplusplus/Day4/Officer.cpp
+

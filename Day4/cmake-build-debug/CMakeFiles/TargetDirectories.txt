@@ -1,0 +1,3 @@
+/home/wujud/Clones/cplusplus/Day4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wujud/Clones/cplusplus/Day4/cmake-build-debug/CMakeFiles/Day4.dir
+/home/wujud/Clones/cplusplus/Day4/cmake-build-debug/CMakeFiles/edit_cache.dir
