@@ -7,6 +7,9 @@ int main()
 	std::cout << "Please enter the ISBN number." << std::endl;
 	std::cin >> book;
 
-	item.ISBN(book);
+	double price = 24.99f;
+	int sum = book * price;
+
+	book.ISBN(sum);
 	return 0;
 }
